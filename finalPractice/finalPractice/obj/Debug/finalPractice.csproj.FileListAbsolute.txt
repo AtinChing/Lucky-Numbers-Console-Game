@@ -1,0 +1,14 @@
+C:\Users\atin5\source\repos\finalPractice\finalPractice\bin\Debug\finalPractice.exe.config
+C:\Users\atin5\source\repos\finalPractice\finalPractice\bin\Debug\finalPractice.exe
+C:\Users\atin5\source\repos\finalPractice\finalPractice\bin\Debug\finalPractice.pdb
+C:\Users\atin5\source\repos\finalPractice\finalPractice\obj\Debug\finalPractice.csprojAssemblyReference.cache
+C:\Users\atin5\source\repos\finalPractice\finalPractice\obj\Debug\finalPractice.csproj.CoreCompileInputs.cache
+C:\Users\atin5\source\repos\finalPractice\finalPractice\obj\Debug\finalPractice.exe
+C:\Users\atin5\source\repos\finalPractice\finalPractice\obj\Debug\finalPractice.pdb
+C:\Users\Atin\source\repos\finalPractice\finalPractice\bin\Debug\finalPractice.exe.config
+C:\Users\Atin\source\repos\finalPractice\finalPractice\bin\Debug\finalPractice.exe
+C:\Users\Atin\source\repos\finalPractice\finalPractice\bin\Debug\finalPractice.pdb
+C:\Users\Atin\source\repos\finalPractice\finalPractice\obj\Debug\finalPractice.csprojAssemblyReference.cache
+C:\Users\Atin\source\repos\finalPractice\finalPractice\obj\Debug\finalPractice.csproj.CoreCompileInputs.cache
+C:\Users\Atin\source\repos\finalPractice\finalPractice\obj\Debug\finalPractice.exe
+C:\Users\Atin\source\repos\finalPractice\finalPractice\obj\Debug\finalPractice.pdb
