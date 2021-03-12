@@ -32,13 +32,13 @@ namespace finalPractice
             Thread.Sleep(2000);
             Console.WriteLine("Admin: You're applying to Ching Techonologies as well?");
             Thread.Sleep(3000);
-            Console.WriteLine("Admin: Hmm. Cool. Lets see if you can answer basic questions.");
+            Console.WriteLine("Admin: Hmm. Cool. Lets see if you can answer some basic questions.");
             Thread.Sleep(2000);
             Console.WriteLine("Admin: You answer one question stupidly and you're out.");
             Thread.Sleep(5000);
             Console.WriteLine("Admin: So whats your name?");
             string name = Console.ReadLine();
-            Console.WriteLine("Admin: Well, hi " + name + ", they told me you were gonna arrive soon. Whats your SECOND name?");
+            Console.WriteLine("Admin: Well, hi " + name + ", they told me you were gonna arrive soon. What's your SECOND name?");
             string secName = Console.ReadLine();
             Console.WriteLine("Admin: Cool name.");
             Thread.Sleep(3000);
@@ -48,7 +48,7 @@ namespace finalPractice
             // Not entering numbers exception handling
             try
             {
-                Console.WriteLine("Admin: So when were you born? (Write in DDMMYYY format)");
+                Console.WriteLine("Admin: So when were you born, " + shorName + "? (Write in DDMMYYYY format)");
                 string birthDate = Console.ReadLine();
                 int birthDateNum = Convert.ToInt32(birthDate);
                 string monthborn = Tools.convertToMonth(Convert.ToInt32((Tools.convertTo2Chars1W(birthDate, 2, 3))));
@@ -60,9 +60,9 @@ namespace finalPractice
             }
             Console.WriteLine("Admin: You think you're good enough to be a developer?");
             string isDev = Console.ReadLine();
-            if (isDev == "Yes" || isDev == "yes" || isDev == "Yeah" || isDev == "yeah")
+            if (isDev == "Yes" || isDev == "yes" || isDev == "Yeah" || isDev == "yeah" || isDev == "yuh")
             {
-                Console.WriteLine("Admin: Huh, nice confidence. Let's see if you're actually good enough.");
+                Console.WriteLine("Admin: Huh, good to see some confidence from you," + shorName + ". Let's see if you're actually good enough.");
                 Thread.Sleep(2000);
             }
             else if (isDev == "No" || isDev == "no") {
@@ -77,13 +77,13 @@ namespace finalPractice
             Console.WriteLine("*Admin leaves*");
             // User doesn't actually have to guess the right profession for the right person.
             Thread.Sleep(1000);
-            Console.WriteLine("You choose one person out of Uand, Reda and Khaban. You will then have to guess which one is their profession. You have to get lucky when guessing which kind of developer they are. You will not be tested on your ability to code and make programs but rather your competence and your ability to work with others.");
+            Console.WriteLine("System: You choose one person out of Uand, Reda and Khaban. You will then have to guess which one is their profession. You have to get lucky when guessing which kind of developer they are. You will not be tested on your ability to code and make programs but rather your competence and your ability to work with others.");
             Thread.Sleep(8000);
-            Console.WriteLine("Once you choose one of them and their right profession, you will be asked to think of 5 different numbers between a certain range. The partner you've chosen will have to guess right 3 times. The more answers your partner guesses right increases your chances of being accepted.");
+            Console.WriteLine("System: Once you choose one of them and their right profession, you will be asked to think of 5 different numbers between a certain range. The partner you've chosen will have to guess right 3 times. The more answers your partner guesses right increases your chances of being accepted.");
             Thread.Sleep(5000);
-            Console.WriteLine("Which one would you like to pick? Uand, Reda or Khaban?");
+            Console.WriteLine("System: Which one would you like to pick? Uand, Reda or Khaban?");
             string chosen1 = Console.ReadLine();
-            Console.WriteLine("What kind of development do you think " + chosen1 + " does? Web, software or game development? (You can just enter \"Web\" or \"Game\" or \"Soft\")."); // Using \ lets you include "" in the string without messing it up. (Because string are defined with whatever goes inside the "").
+            Console.WriteLine("System: What kind of development do you think " + chosen1 + " does? Web, software or game development? (You can just enter \"Web\" or \"Game\" or \"Soft\")."); // Using \ lets you include "" in the string without messing it up. (Because string are defined with whatever goes inside the "").
             string ctype = Console.ReadLine();
             string c1type = Tools.getType(ctype);
             
